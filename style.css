@@ -1,0 +1,63 @@
+h1, p{
+    font-family: Inter, sans-serif;
+    margin: 0px;
+}
+
+.Navigation-bar{
+    display: grid;
+    grid-template-columns: 2fr 100px 100px;
+    position: fixed;
+    top: 10px;
+    right: 0;
+    left: 0;
+    justify-content: center;
+}
+.Navigation-logo{
+    margin-left: 30px;
+    font-size: 22px;
+    font-weight: 700;
+}
+.Navigation-skills{
+    margin: 0;
+    font-size: 22px;
+    font-weight: 700;
+}
+.Navigation-about{
+    margin: 0;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.First-div{
+    margin-top: 70px;
+    margin-left: 20px;
+}
+.Second-div{
+    margin-left: 20px;
+}
+
+.Main-name {
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 20px;
+    
+}
+
+.Main-description {
+    margin-bottom: 60px;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.Email-button {
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: white;
+    border-style: solid;
+    width: 270px;
+    padding: 20px;
+    border-radius: 35px;
+
+    transition: all .3s;
+}
