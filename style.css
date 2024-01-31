@@ -13,7 +13,7 @@ h1, p{
     padding-top: 10px;
     padding-bottom: 10px;
     justify-content: center;
-    /* background-color: gray; */
+    transition: 0.8s;
 }
 .Navigation-logo{
     margin-left: 30px;
@@ -23,16 +23,19 @@ h1, p{
 .Navigation-skills{
     margin: 0;
     font-size: 22px;
-    font-weight: 700;
+    font-weight: 500;
 }
 .Navigation-about{
     margin: 0;
     font-size: 22px;
-    font-weight: 700;
+    font-weight: 500;
+}
+.Navigation-bar.hidden {
+    transform: translateY(-100%);
 }
 
 .First-div{
-    margin-top: 55px;
+    margin-top: 75px;
     margin-left: 20px;
 }
 .Second-div{
@@ -41,30 +44,26 @@ h1, p{
 
 .Main-name {
     font-weight: 700;
-    font-size: 25px;
+    font-size: 3vw;
     margin-bottom: 20px;
-    
+    line-height: 5vw;
 }
 
 .Main-description {
     margin-bottom: 60px;
-    font-weight: 600;
-    font-size: 22px;
+    font-weight: 500;
+    font-size: 20px;
 }
 
 .Email-button {
-    position: relative;
-    overflow: hidden;
-    text-align: center;
     font-family: Inter, sans-serif;
-    text-decoration: none;
     font-size: 20px;
     font-weight: 500;
     background-color: white;
-    user-select: none;
     border: 1px solid black;
     width: 270px;
     padding: 20px 30px;
+    text-align: center;
     border-radius: 35px;
     cursor: pointer;
     transition: .8s;
@@ -72,24 +71,7 @@ h1, p{
 .Email-button:hover{
     color: #fff;
 }
-.Email-button::before{
-    padding-bottom: -100;
-    content: "MESSAGE ME";
-    position: absolute;
-    left: 0;
-    width: 100%;
-    height: 0%;
-    background-color: black;
-    z-index: 0;
-    transition: 0.8s;
-}
-.Email-button::before{
-    bottom: 0;
-    border-radius: 50% 50% 0 0;
-}
-.Email-button:hover::before{
-    height: 130%;
-}
+
 
 body{
     margin-bottom: 1000px;
